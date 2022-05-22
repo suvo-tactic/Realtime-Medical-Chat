@@ -397,7 +397,7 @@
     display: flex;
     flex-direction: column;
     background: var(--primary-color);
-    width: 240px;
+    width: 250px;
   }
   
   .icon1__inner {
@@ -483,6 +483,7 @@
     font-family: Helvetica Neue, sans-serif;
     font-size: 16px;
     outline: none;
+    width: 200px;
   }
   
   ::placeholder {
@@ -943,6 +944,7 @@
   .team-channel-list__message {
     color: #ffffff;
     padding: 0 16px;
+    font-size: 14px;
   }
   
   .team-channel-list__message.loading {
