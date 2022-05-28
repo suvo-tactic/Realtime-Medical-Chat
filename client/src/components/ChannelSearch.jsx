@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useChatContext } from 'stream-chat-react';
 
+import { ResultsDropdown } from './'
 import { SearchIcon } from '../assets';
 
 const ChannelSearch = ({ setToggleContainer }) => {
@@ -65,8 +66,16 @@ const ChannelSearch = ({ setToggleContainer }) => {
                     onChange={onSearch}
                 />
             </div>
-          
-           
+            { query && (
+                <ResultsDropdown 
+                    teamChannels={teamChannels}
+                    directChannels={directChannels}
+                    loading={loading}
+                    setChannel={setChannel}
+                    setQuery={setQuery}
+                    setToggleContainer={setToggleContainer}
+                />
+            )}
         </div>
     )
 }
