@@ -121,7 +121,7 @@ const ChannelListContainer = ({ setCreateType, setIsCreating, setIsEditing }) =>
             <div className="channel-list__container">
               <ChannelListContent 
                 setIsCreating={setIsCreating} 
-                setCreateType={setCreateType} 
+                 setCreateType={setCreateType} 
                 setIsEditing={setIsEditing} 
               />
             </div>
