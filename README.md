@@ -1,4 +1,4 @@
-# Medi-Pager
+# Realtime Medical Chat 
 
 It is a Medical Pager in which doctors can talk and have discussions  
 
